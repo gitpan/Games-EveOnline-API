@@ -1,3 +1,9 @@
+0.02
+ - Fix the various feeds - they were totally broke.
+ - Add tests for Perl::Critic and Pod::Coverage.
+ - Add a test that forces the API to use pre-generated XML and compare results.
+ - Upgrade to Module::Install 0.73 for no particular reason.
+
 0.01
  - First release.
 
