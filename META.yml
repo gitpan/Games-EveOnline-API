@@ -1,23 +1,24 @@
 ---
 abstract: 'A simple Perl wrapper around the EveOnline XML API.'
 author:
-  - 'Aran Clary Deltac <bluefeet@cpan.org>'
+  - 'Aran Deltac <bluefeet@gmail.com>'
 build_requires:
-  Test::More: 0.62
-distribution_type: module
-generated_by: 'Module::Install version 0.73'
+  Test::Simple: '0.94'
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
 name: Games-EveOnline-API
-no_index:
-  directory:
-    - inc
-    - t
 requires:
-  LWP::Simple: 0
-  Moose: 0.39
-  XML::Simple: 0
-  perl: 5.8.3
-version: 0.02
+  LWP::Simple: '0'
+  Moose: '0.39'
+  XML::Simple: '0'
+resources:
+  bugtracker: https://github.com/bluefeet/Games-EveOnline-API/issues
+  homepage: https://github.com/bluefeet/Games-EveOnline-API
+  repository: https://github.com/bluefeet/Games-EveOnline-API.git
+version: '0.04'
