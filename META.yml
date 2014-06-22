@@ -15,10 +15,11 @@ meta-spec:
 name: Games-EveOnline-API
 requires:
   LWP::Simple: '0'
-  Moose: '0.39'
+  Moo: '1.004005'
+  Type::Tiny: '0.044'
   XML::Simple: '0'
 resources:
   bugtracker: https://github.com/bluefeet/Games-EveOnline-API/issues
   homepage: https://github.com/bluefeet/Games-EveOnline-API
   repository: https://github.com/bluefeet/Games-EveOnline-API.git
-version: '0.04'
+version: '0.05'

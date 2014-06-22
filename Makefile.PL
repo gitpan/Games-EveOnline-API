@@ -22,13 +22,14 @@ my %WriteMakefileArgs = (
   "NAME" => "Games::EveOnline::API",
   "PREREQ_PM" => {
     "LWP::Simple" => 0,
-    "Moose" => "0.39",
+    "Moo" => "1.004005",
+    "Type::Tiny" => "0.044",
     "XML::Simple" => 0
   },
   "TEST_REQUIRES" => {
     "Test::Simple" => "0.94"
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,8 +38,9 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "LWP::Simple" => 0,
-  "Moose" => "0.39",
+  "Moo" => "1.004005",
   "Test::Simple" => "0.94",
+  "Type::Tiny" => "0.044",
   "XML::Simple" => 0
 );
 
