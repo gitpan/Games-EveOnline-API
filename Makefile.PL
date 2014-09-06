@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Games::EveOnline::API",
   "PREREQ_PM" => {
-    "LWP::Simple" => 0,
+    "LWP::UserAgent" => 0,
     "Moo" => "1.004005",
     "Type::Tiny" => "0.044",
     "XML::Simple" => 0
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::Simple" => "0.94"
   },
-  "VERSION" => "0.05",
+  "VERSION" => "0.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "LWP::Simple" => 0,
+  "LWP::UserAgent" => 0,
   "Moo" => "1.004005",
   "Test::Simple" => "0.94",
   "Type::Tiny" => "0.044",
