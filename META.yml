@@ -22,4 +22,4 @@ resources:
   bugtracker: https://github.com/bluefeet/Games-EveOnline-API/issues
   homepage: https://github.com/bluefeet/Games-EveOnline-API
   repository: https://github.com/bluefeet/Games-EveOnline-API.git
-version: '0.06'
+version: '0.07'
